@@ -1,5 +1,4 @@
 :root {
-    font-size : 100%;
     font-family : system-ui, sans-serif;
     scroll-behavior : smooth;
   }
@@ -37,7 +36,6 @@
     counter-reset : revert;
   }
   h1 , h2 , h3 , h4 , h5 , h6 , p , span , a , strong , blockquote , i , b , u , em , pre , code , mark , del {
-    font :  inherit;
     text-decoration :  none;
     color : inherit;
     overflow-wrap : break-word;
