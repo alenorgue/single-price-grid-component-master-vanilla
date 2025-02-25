@@ -27,7 +27,8 @@ h2 {
 
 p {
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    line-height: 1.6;
 }
 
 li {
@@ -86,32 +87,37 @@ li {
     color: var(--Light-Gray);
 }
 
-button {
+.button {
     background-color: var(--Bright-Yellow);
     width: 90%;
     padding: 10px;
     border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
-button:hover {
+.button:hover {
     background-color: white;
     color: var(--Bright-Yellow);
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 @media (min-width: 800px) {
-    body {
-        align-content: center;
+    body {display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
     }
 
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         min-width: 750px;
-        justify-self: center;
+        
     }
 
     .box__community {
